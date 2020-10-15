@@ -56,7 +56,7 @@ namespace DigitalRuby.RainMaker
                 {
                     ParticleCollisionEvent evt = collisionEvents[i];
                     Vector3 pos = evt.intersection;
-                    Emit(RainExplosion, ref pos);
+                    //Emit(RainExplosion, ref pos);
                 }
             }
         }
