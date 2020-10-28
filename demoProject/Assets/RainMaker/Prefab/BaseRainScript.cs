@@ -21,6 +21,11 @@ namespace DigitalRuby.RainMaker
         [Tooltip("Whether rain should follow the camera. If false, rain must be moved manually and will not follow the camera.")]
         public bool FollowCamera = true;
 
+		//I added this:
+		public bool isRaining;
+		
+		public int counter = 0;
+
         [Tooltip("Light rain looping clip")]
         public AudioClip RainSoundLight;
 
@@ -213,6 +218,8 @@ namespace DigitalRuby.RainMaker
 
         protected virtual void Start()
         {
+			//I added this.
+			isRaining = true;
 
 #if DEBUG
 
@@ -282,8 +289,29 @@ namespace DigitalRuby.RainMaker
                 Debug.LogError("Rain fall particle system must be set to a particle system");
                 return;
             }
+			
+			
 
 #endif
+
+			
+			
+			//Here is where I made a change - enables and disables rain with button presses.
+			OVRInput.Update();
+			if (Input.GetKeyDown("r") || OVRInput.Get(OVRInput.RawButton.A) && counter > 20)
+			{
+				if(isRaining)
+				{
+					RainIntensity = 0.0f;	
+				}
+				else
+				{
+					RainIntensity = 1.0f;
+				}
+				isRaining = !isRaining;
+				counter = 0;
+			}
+			counter++;
 
             CheckForRainChange();
             UpdateWind();

@@ -67,6 +67,8 @@ namespace DigitalRuby.RainMaker
             base.Update();
 
             UpdateRain();
+
+
         }
     }
 }
