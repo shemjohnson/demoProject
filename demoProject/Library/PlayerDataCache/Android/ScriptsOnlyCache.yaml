@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - DigitalRuby.RainMaker.RainCollision
     - DigitalRuby.RainMaker.RainScript
+    - LocationSwitch
     - ONSPSettings
     - OvrAvatar
     - OvrAvatarLocalDriver
@@ -85,7 +86,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13754}
     - Class: 114
-      Script: {instanceID: 13830}
+      Script: {instanceID: 13778}
+    - Class: 114
+      Script: {instanceID: 13832}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -1461,6 +1464,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: PanelHMDFollower
+  - hash:
+      serializedVersion: 2
+      Hash: 9eb55fd6c3fb529dd53c45f87dcbbd67
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LocationSwitch
   - hash:
       serializedVersion: 2
       Hash: 76b80dd1b65f63dfa63cf0ea8a906f3a
