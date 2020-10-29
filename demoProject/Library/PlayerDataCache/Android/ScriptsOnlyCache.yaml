@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - OvrAvatar
     - OvrAvatarLocalDriver
     - OvrAvatarSettings
+    - Teleporter
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
@@ -55,35 +56,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11504}
+      Script: {instanceID: 11544}
     - Class: 114
-      Script: {instanceID: 11568}
+      Script: {instanceID: 11608}
     - Class: 114
-      Script: {instanceID: 11658}
+      Script: {instanceID: 11698}
     - Class: 114
-      Script: {instanceID: 11870}
+      Script: {instanceID: 11910}
     - Class: 114
-      Script: {instanceID: 11984}
+      Script: {instanceID: 12024}
     - Class: 114
-      Script: {instanceID: 12206}
+      Script: {instanceID: 12246}
     - Class: 114
-      Script: {instanceID: 12250}
+      Script: {instanceID: 12290}
     - Class: 114
-      Script: {instanceID: 12448}
+      Script: {instanceID: 12488}
     - Class: 114
-      Script: {instanceID: 12606}
+      Script: {instanceID: 12646}
     - Class: 114
-      Script: {instanceID: 12724}
+      Script: {instanceID: 12764}
     - Class: 114
-      Script: {instanceID: 13028}
+      Script: {instanceID: 13068}
     - Class: 114
-      Script: {instanceID: 13264}
+      Script: {instanceID: 13304}
     - Class: 114
-      Script: {instanceID: 13310}
+      Script: {instanceID: 13350}
     - Class: 114
-      Script: {instanceID: 13714}
+      Script: {instanceID: 13754}
     - Class: 114
-      Script: {instanceID: 13790}
+      Script: {instanceID: 13830}
+    - Class: 114
+      Script: {instanceID: 19758}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -181,12 +184,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 99d999018d3c1c5fb2bea275f7609d4d
-    assemblyName: Oculus.VR.dll
-    namespaceName: 
-    className: OVRMixedRealityCaptureSettings
   - hash:
       serializedVersion: 2
       Hash: b4fc42b020df4b67385e61ff21d513cc
@@ -1735,7 +1732,19 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NewBehaviourScript
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Teleporter
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/wanna/demoProject/rain.apk
+  playerPath: /Users/shemjohnson/Desktop/Teleporter.apk
