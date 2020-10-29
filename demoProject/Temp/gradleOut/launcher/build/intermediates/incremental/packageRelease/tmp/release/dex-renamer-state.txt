@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-#Thu Oct 29 11:08:02 MDT 2020
-base.0=/Users/shemjohnson/Desktop/github/newDemo/demoProject/demoProject/Temp/gradleOut/launcher/build/intermediates/transforms/dexMerger/release/0
-=======
-#Wed Oct 28 11:58:29 MDT 2020
-base.0=C\:\\Users\\wanna\\demoProject\\demoProject\\Temp\\gradleOut\\launcher\\build\\intermediates\\transforms\\dexMerger\\release\\0
->>>>>>> 542d3f9a550d93ee060fabdedd41cb6c78901685
-path.0=classes.dex
-renamed.0=classes.dex
