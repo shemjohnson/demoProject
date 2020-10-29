@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "/Users/shemjohnson/Desktop/github/newDemo/demoProject/demoProject/Temp/gradleOut/launcher/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/shemjohnson/Desktop/github/newDemo/demoProject/demoProject/Temp/gradleOut/launcher/src/main/res/values-v21/styles.xml",
+=======
+            "outputFile": "C:\\Users\\wanna\\demoProject\\demoProject\\Temp\\gradleOut\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v21\\values-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\wanna\\demoProject\\demoProject\\Temp\\gradleOut\\launcher\\src\\main\\res\\values-v21\\styles.xml",
+>>>>>>> 542d3f9a550d93ee060fabdedd41cb6c78901685
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",

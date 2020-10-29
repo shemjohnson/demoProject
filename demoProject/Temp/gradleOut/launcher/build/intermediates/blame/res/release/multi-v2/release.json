@@ -1,6 +1,7 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "/Users/shemjohnson/Desktop/github/newDemo/demoProject/demoProject/Temp/gradleOut/launcher/build/intermediates/res/merged/release/values_values.arsc.flat",
             "map": [
                 {
@@ -47,22 +48,48 @@
                         "startOffsets": "55",
                         "endColumns": "46",
                         "endOffsets": "97"
+=======
+            "outputFile": "C:\\Users\\wanna\\demoProject\\demoProject\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\wanna\\demoProject\\demoProject\\Temp\\gradleOut\\launcher\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "0",
+                        "startOffsets": "53",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "153"
+>>>>>>> 542d3f9a550d93ee060fabdedd41cb6c78901685
                     },
                     "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
+<<<<<<< HEAD
                         "endColumns": "45",
                         "endOffsets": "96"
+=======
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "154"
+>>>>>>> 542d3f9a550d93ee060fabdedd41cb6c78901685
                     }
                 }
             ]
         },
         {
+<<<<<<< HEAD
             "outputFile": "/Users/shemjohnson/Desktop/github/newDemo/demoProject/demoProject/Temp/gradleOut/launcher/build/intermediates/res/merged/release/values-v28_values-v28.arsc.flat",
             "map": [
                 {
                     "source": "/Users/shemjohnson/Desktop/github/newDemo/demoProject/demoProject/Temp/gradleOut/launcher/src/main/res/values-v28/styles.xml",
+=======
+            "outputFile": "C:\\Users\\wanna\\demoProject\\demoProject\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\values-v28_values-v28.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\wanna\\demoProject\\demoProject\\Temp\\gradleOut\\launcher\\src\\main\\res\\values-v28\\styles.xml",
+>>>>>>> 542d3f9a550d93ee060fabdedd41cb6c78901685
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",
@@ -83,6 +110,7 @@
             ]
         },
         {
+<<<<<<< HEAD
             "outputFile": "/Users/shemjohnson/Desktop/github/newDemo/demoProject/demoProject/Temp/gradleOut/launcher/build/intermediates/res/merged/release/values-v21_values-v21.arsc.flat",
             "map": [
                 {
@@ -94,14 +122,67 @@
                         "endLines": "3",
                         "endColumns": "8",
                         "endOffsets": "153"
+=======
+            "outputFile": "C:\\Users\\wanna\\demoProject\\demoProject\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\wanna\\demoProject\\demoProject\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\ids.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+>>>>>>> 542d3f9a550d93ee060fabdedd41cb6c78901685
                     },
                     "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
+<<<<<<< HEAD
                         "endLines": "3",
                         "endColumns": "8",
                         "endOffsets": "154"
+=======
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\wanna\\demoProject\\demoProject\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "5,7,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "218,318,456",
+                        "endLines": "6,9,13",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "313,451,678"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\wanna\\demoProject\\demoProject\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "55,103",
+                        "endColumns": "46,65",
+                        "endOffsets": "99,166"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "101,150",
+                        "endColumns": "48,67",
+                        "endOffsets": "145,213"
+>>>>>>> 542d3f9a550d93ee060fabdedd41cb6c78901685
                     }
                 }
             ]

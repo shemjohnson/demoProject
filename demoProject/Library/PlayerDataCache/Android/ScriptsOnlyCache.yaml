@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - DigitalRuby.RainMaker.RainCollision
     - DigitalRuby.RainMaker.RainScript
+    - LocationSwitch
     - ONSPSettings
     - OvrAvatar
     - OvrAvatarLocalDriver
@@ -51,12 +52,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 11544}
+<<<<<<< HEAD
     - Class: 114
       Script: {instanceID: 11608}
     - Class: 114
@@ -87,6 +91,38 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13830}
     - Class: 114
       Script: {instanceID: 19758}
+=======
+    - Class: 114
+      Script: {instanceID: 11608}
+    - Class: 114
+      Script: {instanceID: 11698}
+    - Class: 114
+      Script: {instanceID: 11910}
+    - Class: 114
+      Script: {instanceID: 12024}
+    - Class: 114
+      Script: {instanceID: 12246}
+    - Class: 114
+      Script: {instanceID: 12290}
+    - Class: 114
+      Script: {instanceID: 12488}
+    - Class: 114
+      Script: {instanceID: 12646}
+    - Class: 114
+      Script: {instanceID: 12764}
+    - Class: 114
+      Script: {instanceID: 13068}
+    - Class: 114
+      Script: {instanceID: 13304}
+    - Class: 114
+      Script: {instanceID: 13350}
+    - Class: 114
+      Script: {instanceID: 13754}
+    - Class: 114
+      Script: {instanceID: 13778}
+    - Class: 114
+      Script: {instanceID: 13832}
+>>>>>>> 542d3f9a550d93ee060fabdedd41cb6c78901685
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -234,7 +270,7 @@ ScriptsOnlyBuild:
     className: PlayerController
   - hash:
       serializedVersion: 2
-      Hash: 2dd2bacdc5371d1256b8aca94283063e
+      Hash: 02ac4c17cc9240854453ab811f0afefe
     assemblyName: Assembly-CSharp.dll
     namespaceName: DigitalRuby.RainMaker
     className: RainScript
@@ -1164,7 +1200,7 @@ ScriptsOnlyBuild:
     className: RayToolView
   - hash:
       serializedVersion: 2
-      Hash: d18cc7ba10aa006e6bd980ec49a29a17
+      Hash: db1727eb9e1e22b61fea109392164f5b
     assemblyName: Assembly-CSharp.dll
     namespaceName: DigitalRuby.RainMaker
     className: BaseRainScript
@@ -1182,7 +1218,7 @@ ScriptsOnlyBuild:
     className: EyeCamera
   - hash:
       serializedVersion: 2
-      Hash: 76b6aef2414f95a502f23603160b5812
+      Hash: 561ef62dac1f8985f00e3be2ca24c2ad
     assemblyName: Assembly-CSharp.dll
     namespaceName: DigitalRuby.RainMaker
     className: RainScript2D
@@ -1456,6 +1492,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: PanelHMDFollower
+  - hash:
+      serializedVersion: 2
+      Hash: 9eb55fd6c3fb529dd53c45f87dcbbd67
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LocationSwitch
   - hash:
       serializedVersion: 2
       Hash: 76b80dd1b65f63dfa63cf0ea8a906f3a

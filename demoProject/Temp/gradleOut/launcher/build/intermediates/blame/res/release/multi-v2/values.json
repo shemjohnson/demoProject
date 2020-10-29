@@ -1,6 +1,7 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "/Users/shemjohnson/Desktop/github/newDemo/demoProject/demoProject/Temp/gradleOut/launcher/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
             "map": [
                 {
@@ -22,6 +23,29 @@
                 },
                 {
                     "source": "/Users/shemjohnson/Desktop/github/newDemo/demoProject/demoProject/Temp/gradleOut/launcher/src/main/res/values/styles.xml",
+=======
+            "outputFile": "C:\\Users\\wanna\\demoProject\\demoProject\\Temp\\gradleOut\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\wanna\\demoProject\\demoProject\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\ids.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\wanna\\demoProject\\demoProject\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\styles.xml",
+>>>>>>> 542d3f9a550d93ee060fabdedd41cb6c78901685
                     "from": {
                         "startLines": "5,2,7",
                         "startColumns": "0,0,0",
@@ -40,6 +64,7 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "/Users/shemjohnson/Desktop/github/newDemo/demoProject/demoProject/Temp/gradleOut/launcher/src/main/res/values/ids.xml",
                     "from": {
                         "startLines": "2",
@@ -54,6 +79,22 @@
                         "startOffsets": "55",
                         "endColumns": "45",
                         "endOffsets": "96"
+=======
+                    "source": "C:\\Users\\wanna\\demoProject\\demoProject\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "55,103",
+                        "endColumns": "46,65",
+                        "endOffsets": "99,166"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "101,150",
+                        "endColumns": "48,67",
+                        "endOffsets": "145,213"
+>>>>>>> 542d3f9a550d93ee060fabdedd41cb6c78901685
                     }
                 }
             ]
