@@ -89,7 +89,7 @@ namespace DigitalRuby.RainMaker
         {
             if (EnableWind && WindZone != null && WindSpeedRange.y > 1.0f)
             {
-                WindZone.gameObject.SetActive(true);
+                WindZone.gameObject.SetActive(false);//wind zone is currently destroying trees and is disabled as a temp fix
                 if (FollowCamera)
                 {
                     WindZone.transform.position = Camera.transform.position;
