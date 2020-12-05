@@ -669,6 +669,9 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/basura/Documents/GitHub/demoProject/demoProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.TerrainTools">
+ <HintPath>/Users/basura/Documents/GitHub/demoProject/demoProject/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>/Users/basura/Documents/GitHub/demoProject/demoProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
@@ -689,6 +692,9 @@
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>/Users/basura/Documents/GitHub/demoProject/demoProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TerrainTools.Editor">
+ <HintPath>/Users/basura/Documents/GitHub/demoProject/demoProject/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/basura/Documents/GitHub/demoProject/demoProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
