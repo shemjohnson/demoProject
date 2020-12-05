@@ -42,9 +42,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
@@ -57,31 +63,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11544}
     - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 11698}
+      Script: {instanceID: 11696}
     - Class: 114
-      Script: {instanceID: 11910}
+      Script: {instanceID: 11920}
     - Class: 114
-      Script: {instanceID: 12246}
+      Script: {instanceID: 12260}
     - Class: 114
-      Script: {instanceID: 12290}
+      Script: {instanceID: 12504}
     - Class: 114
-      Script: {instanceID: 12488}
+      Script: {instanceID: 12660}
     - Class: 114
-      Script: {instanceID: 12648}
+      Script: {instanceID: 12778}
     - Class: 114
-      Script: {instanceID: 12766}
+      Script: {instanceID: 13090}
     - Class: 114
-      Script: {instanceID: 13072}
+      Script: {instanceID: 13374}
     - Class: 114
-      Script: {instanceID: 13354}
+      Script: {instanceID: 13786}
     - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 13808}
     - Class: 114
-      Script: {instanceID: 13782}
+      Script: {instanceID: 13868}
     - Class: 114
-      Script: {instanceID: 13836}
+      Script: {instanceID: 20786}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -95,6 +101,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 182
+      Script: {instanceID: 0}
+    - Class: 193
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
@@ -349,10 +357,22 @@ ScriptsOnlyBuild:
     className: BoardPosition
   - hash:
       serializedVersion: 2
+      Hash: 8de89021ff5e3ec5ffd065f728f200c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScrollUVWater
+  - hash:
+      serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 3fbb1a5ffeb0d2dc3502a3dae62a7533
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityEngine.PostProcessing
+    className: PostProcessingBehaviour
   - hash:
       serializedVersion: 2
       Hash: 2a190070f6cdfa268969e6612ffdf745
@@ -919,6 +939,12 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: 7500c6c822638a5071b49db5381dbf25
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FreeCam
+  - hash:
+      serializedVersion: 2
       Hash: 8f71d2ab3258f223c82a0616125cd43f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1243,6 +1269,12 @@ ScriptsOnlyBuild:
     className: AudioTrack
   - hash:
       serializedVersion: 2
+      Hash: bd89c02c54734bc10c39b2afb3d65590
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityEngine.PostProcessing
+    className: PostProcessingProfile
+  - hash:
+      serializedVersion: 2
       Hash: ce638e2dcac0548a4a3e456d5051c131
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
@@ -1255,7 +1287,7 @@ ScriptsOnlyBuild:
     className: OVRGridCube
   - hash:
       serializedVersion: 2
-      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
@@ -1453,7 +1485,7 @@ ScriptsOnlyBuild:
     className: TestRunCallbackListener
   - hash:
       serializedVersion: 2
-      Hash: 4ef0f7d42cdb13479386e1f049c315aa
+      Hash: 9726bc46e15d44429bd38fb013657f1e
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
     className: PlaymodeTestsController
