@@ -15,6 +15,9 @@ namespace DigitalRuby.RainMaker
 {
     public class BaseRainScript : MonoBehaviour
     {
+		public Light Lightning;
+	public bool startFlashing;
+		
         [Tooltip("Camera the rain should hover over, defaults to main camera")]
         public Camera Camera;
 
@@ -220,6 +223,8 @@ namespace DigitalRuby.RainMaker
         {
 			//I added this.
 			isRaining = true;
+			Lightning.enabled = false;
+			startFlashing = false;
 
 #if DEBUG
 
@@ -318,6 +323,18 @@ namespace DigitalRuby.RainMaker
             audioSourceRainLight.Update();
             audioSourceRainMedium.Update();
             audioSourceRainHeavy.Update();
+			
+			if(UnityEngine.Random.Range(0, 100) > 98)
+			startFlashing = true;
+		
+		if(UnityEngine.Random.Range(0, 100) > 95 && startFlashing)
+			startFlashing = false;
+		
+		if(UnityEngine.Random.Range(0,100) > 50 && startFlashing && isRaining)
+			Lightning.enabled = true;
+		else
+			Lightning.enabled = false;
+    
         }
 
         protected virtual float RainFallEmissionRate()

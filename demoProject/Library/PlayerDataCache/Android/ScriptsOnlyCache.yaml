@@ -114,7 +114,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14178}
     - Class: 114
-      Script: {instanceID: 22914}
+      Script: {instanceID: 20916}
+    - Class: 114
+      Script: {instanceID: 39988}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -246,7 +248,7 @@ ScriptsOnlyBuild:
     className: OVRGazePointer
   - hash:
       serializedVersion: 2
-      Hash: 02ac4c17cc9240854453ab811f0afefe
+      Hash: 776c477c4e22cdb19bce525dcdf54739
     assemblyName: Assembly-CSharp.dll
     namespaceName: DigitalRuby.RainMaker
     className: RainScript
@@ -1104,7 +1106,7 @@ ScriptsOnlyBuild:
     className: RayToolView
   - hash:
       serializedVersion: 2
-      Hash: db1727eb9e1e22b61fea109392164f5b
+      Hash: c6c0ade638747344b0502f5f28fb2caf
     assemblyName: Assembly-CSharp.dll
     namespaceName: DigitalRuby.RainMaker
     className: BaseRainScript
@@ -1122,7 +1124,7 @@ ScriptsOnlyBuild:
     className: EyeCamera
   - hash:
       serializedVersion: 2
-      Hash: 561ef62dac1f8985f00e3be2ca24c2ad
+      Hash: a338b4ba3379575e8c9b057c6c467623
     assemblyName: Assembly-CSharp.dll
     namespaceName: DigitalRuby.RainMaker
     className: RainScript2D
